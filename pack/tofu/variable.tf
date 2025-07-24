@@ -2,7 +2,11 @@
 #  All rights reserved.
 #  SPDX-License-Identifier: MIT
 
+variable "blueprint_id" {
+  type = string
+}
+
 variable "name" {
   type = string
-  default = "LACP force up"
+  default = "STIG storm control"
 }
